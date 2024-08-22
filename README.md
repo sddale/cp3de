@@ -1,2 +1,4 @@
 # cp3de
-Numerical methods for PDEs in modern C++
+Numerical methods for PDEs in modern C++.
+
+Currently an academic exercise. 
