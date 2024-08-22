@@ -1,0 +1,8 @@
+CompileFlags:
+    Add:
+    - '-std=c++2b'
+    Remove:
+    - '-fno-automatic'
+    - '-Jfor'
+    - '-finit-local-zero'
+    - '-std=legacy'

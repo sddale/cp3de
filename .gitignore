@@ -1,6 +1,14 @@
 # Prerequisites
 *.d
 
+# Build & Cache files
+/build*
+/.vscode
+/cpm_modules
+CMakeCache.txt
+CMakeFiles/
+.cache
+
 # Compiled Object files
 *.slo
 *.lo
@@ -30,3 +38,6 @@
 *.exe
 *.out
 *.app
+
+# MacOS filesystem file
+.DS_Store

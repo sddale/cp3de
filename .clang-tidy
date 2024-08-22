@@ -1,0 +1,19 @@
+# Disable justifications:
+# -readability-magic-numbers, -readability-identifier-length: Math coeffs
+# -readability-function-cognitive-complexity: Unfairly punishes functional programming
+# -misc-use-anonymous-namespace: thrown by doctest test suite, awaiting doctest update
+# -bugprone-easily-swappable-parameters: temporary during early development as interfaces are established
+Checks:
+    -*,
+    bugprone-*,
+    misc-*,
+    modernize-*,
+    performance-*,
+    portability-*,
+    readability-*,
+    -readability-magic-numbers,
+    -readability-function-cognitive-complexity,
+    -readability-identifier-length,
+    -misc-non-private-member-variables-in-classes,
+    -misc-use-anonymous-namespace,
+    -bugprone-easily-swappable-parameters,
